@@ -1,0 +1,69 @@
+{
+    "dataset": "ISLES_22",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "ND",
+        "NORM",
+        "SH",
+        "FIL"
+    ],
+    "Modality": "MR",
+    "PatientSex": "F",
+    "PatientAge": "068Y",
+    "PatientWeight": 90.0,
+    "ScanningSequence": [
+        "SE",
+        "IR"
+    ],
+    "SequenceVariant": [
+        "SK",
+        "SP",
+        "MP",
+        "OSP"
+    ],
+    "ScanOptions": [
+        "IR",
+        "FS"
+    ],
+    "MRAcquisitionType": "2D",
+    "SliceThickness": 4.0,
+    "RepetitionTime": 8560.0,
+    "EchoTime": 136.0,
+    "InversionTime": 2500.0,
+    "NumberOfAverages": 1.0,
+    "ImagingFrequency": 123.190598,
+    "ImagedNucleus": "1H",
+    "EchoNumbers": 1,
+    "MagneticFieldStrength": 3.0,
+    "SpacingBetweenSlices": 4.4,
+    "NumberOfPhaseEncodingSteps": 252,
+    "EchoTrainLength": 21,
+    "PercentSampling": 90.0,
+    "PercentPhaseFieldOfView": 75.0,
+    "PixelBandwidth": 161.0,
+    "AcquisitionMatrix": [
+        0,
+        320,
+        216,
+        0
+    ],
+    "FlipAngle": 180.0,
+    "PatientPosition": "HFS",
+    "ImagePositionPatient": [
+        -72.220909880917,
+        -73.166879256539,
+        46.789707978023
+    ],
+    "ImageOrientationPatient": [
+        0.98964060678,
+        0.11004178328376,
+        -0.0922077835318,
+        -0.1355638938812,
+        0.92770082155719,
+        -0.3478413666571
+    ],
+    "Rows": 320,
+    "Columns": 240
+}

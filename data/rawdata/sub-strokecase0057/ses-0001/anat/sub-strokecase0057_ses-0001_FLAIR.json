@@ -1,0 +1,68 @@
+{
+    "dataset": "ISLES_22",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M_IR",
+        "M",
+        "IR"
+    ],
+    "Modality": "MR",
+    "Manufacturer": "Philips",
+    "ManufacturerModelName": "Ingenia Elition X",
+    "PatientSex": "M",
+    "PatientAge": "078Y",
+    "PatientWeight": 75.0,
+    "BodyPartExamined": "BRAIN",
+    "ScanningSequence": "IR",
+    "SequenceVariant": "SK",
+    "ScanOptions": "FS",
+    "MRAcquisitionType": "3D",
+    "SliceThickness": 1.001,
+    "RepetitionTime": 4800.0,
+    "EchoTime": 339.503,
+    "InversionTime": 1650.0,
+    "NumberOfAverages": 2.0,
+    "ImagingFrequency": 127.756912,
+    "ImagedNucleus": "1H",
+    "EchoNumbers": 1,
+    "MagneticFieldStrength": 3.0,
+    "SpacingBetweenSlices": 0.75,
+    "NumberOfPhaseEncodingSteps": 252,
+    "EchoTrainLength": 170,
+    "PercentSampling": 78.5398178100586,
+    "PercentPhaseFieldOfView": 104.999993642171,
+    "PixelBandwidth": 938.0,
+    "ReconstructionDiameter": 252.0,
+    "ReceiveCoilName": "MULTI COIL",
+    "AcquisitionMatrix": [
+        0,
+        252,
+        252,
+        0
+    ],
+    "FlipAngle": 90.0,
+    "PatientPosition": "HFS",
+    "AcquisitionDuration": 235.20001220703125,
+    "DiffusionBValue": 0.0,
+    "DiffusionGradientOrientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "ImagePositionPatient": [
+        8.10039682674687,
+        -82.219089590013,
+        143.664644639939
+    ],
+    "ImageOrientationPatient": [
+        -0.1420242190361,
+        0.90253227949142,
+        -0.4065275490283,
+        -0.0104984892532,
+        -0.4120409488677,
+        -0.9111048579216
+    ],
+    "Rows": 336,
+    "Columns": 336
+}

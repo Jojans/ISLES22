@@ -1,0 +1,65 @@
+{
+    "dataset": "ISLES_22",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M_SE",
+        "M",
+        "SE"
+    ],
+    "Modality": "MR",
+    "PatientSex": "M",
+    "PatientAge": "079Y",
+    "PatientWeight": 87.0,
+    "BodyPartExamined": "BRAIN",
+    "ScanningSequence": "SE",
+    "SequenceVariant": "SK",
+    "ScanOptions": "FS",
+    "MRAcquisitionType": "2D",
+    "SliceThickness": 2.0,
+    "RepetitionTime": 5000.00048828125,
+    "EchoTime": 78.0,
+    "NumberOfAverages": 1.0,
+    "ImagingFrequency": 127.761832,
+    "ImagedNucleus": "1H",
+    "EchoNumbers": 1,
+    "MagneticFieldStrength": 3.0,
+    "SpacingBetweenSlices": 2.0,
+    "NumberOfPhaseEncodingSteps": 110,
+    "EchoTrainLength": 55,
+    "PercentSampling": 100.0,
+    "PercentPhaseFieldOfView": 100.0,
+    "PixelBandwidth": 2973.0,
+    "ReconstructionDiameter": 224.0,
+    "ReceiveCoilName": "MULTI COIL",
+    "AcquisitionMatrix": [
+        112,
+        0,
+        0,
+        110
+    ],
+    "FlipAngle": 90.0,
+    "PatientPosition": "HFS",
+    "AcquisitionDuration": 335.9059753417969,
+    "DiffusionBValue": 1000.0,
+    "DiffusionGradientOrientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "ImagePositionPatient": [
+        -118.98594602569,
+        -90.669815072789,
+        78.9100512899458
+    ],
+    "ImageOrientationPatient": [
+        0.99812060594558,
+        0.00621612928807,
+        0.06096446886658,
+        0.01872566714882,
+        0.91631919145584,
+        -0.4000105857849
+    ],
+    "Rows": 112,
+    "Columns": 112
+}

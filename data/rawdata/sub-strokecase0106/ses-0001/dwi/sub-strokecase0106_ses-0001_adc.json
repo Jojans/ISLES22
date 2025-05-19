@@ -1,0 +1,66 @@
+{
+    "dataset": "ISLES_22",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "ADC",
+        "ADC",
+        "UNSPECIFIED"
+    ],
+    "Modality": "MR",
+    "Manufacturer": "Philips Medical Systems",
+    "ManufacturerModelName": "Achieva",
+    "PatientSex": "M",
+    "PatientWeight": 72.0,
+    "BodyPartExamined": "BRAIN",
+    "ScanningSequence": "RM",
+    "SequenceVariant": "SK",
+    "ScanOptions": "FS",
+    "MRAcquisitionType": "2D",
+    "SliceThickness": 2.0,
+    "RepetitionTime": 10567.3994140625,
+    "EchoTime": 55.0,
+    "NumberOfAverages": 2.0,
+    "ImagingFrequency": 127.74018,
+    "ImagedNucleus": "1H",
+    "EchoNumbers": 1,
+    "MagneticFieldStrength": 3.0,
+    "SpacingBetweenSlices": 2.0,
+    "NumberOfPhaseEncodingSteps": 112,
+    "EchoTrainLength": 59,
+    "PercentSampling": 100.0,
+    "PercentPhaseFieldOfView": 100.0,
+    "PixelBandwidth": 2970.0,
+    "ReconstructionDiameter": 0.0,
+    "ReceiveCoilName": "SENSE-NV-16",
+    "AcquisitionMatrix": [
+        112,
+        0,
+        0,
+        112
+    ],
+    "FlipAngle": 90.0,
+    "PatientPosition": "HFS",
+    "AcquisitionDuration": 381.14373779296875,
+    "DiffusionBValue": 0.0,
+    "DiffusionGradientOrientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "ImagePositionPatient": [
+        -114.1198560819,
+        -123.59114410891,
+        13.567026170087
+    ],
+    "ImageOrientationPatient": [
+        0.99885815382003,
+        -0.0434201397001,
+        0.01992623321712,
+        0.04715317487716,
+        0.96305435895919,
+        -0.2651468217372
+    ],
+    "Rows": 256,
+    "Columns": 256
+}

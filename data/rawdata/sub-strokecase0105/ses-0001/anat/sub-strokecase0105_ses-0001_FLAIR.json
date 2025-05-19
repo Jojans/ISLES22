@@ -1,0 +1,67 @@
+{
+    "dataset": "ISLES_22",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "M",
+        "ND",
+        "NORM"
+    ],
+    "Modality": "MR",
+    "Manufacturer": "SIEMENS",
+    "ManufacturerModelName": "Verio",
+    "PatientSex": "M",
+    "PatientAge": "063Y",
+    "PatientWeight": 103.0,
+    "ScanningSequence": [
+        "SE",
+        "IR"
+    ],
+    "SequenceVariant": [
+        "SK",
+        "SP",
+        "MP"
+    ],
+    "ScanOptions": [
+        "IR",
+        "PFP"
+    ],
+    "MRAcquisitionType": "3D",
+    "SliceThickness": 1.0,
+    "RepetitionTime": 5000.0,
+    "EchoTime": 395.0,
+    "InversionTime": 1800.0,
+    "NumberOfAverages": 1.0,
+    "ImagingFrequency": 123.190649,
+    "ImagedNucleus": "1H",
+    "EchoNumbers": 1,
+    "MagneticFieldStrength": 3.0,
+    "NumberOfPhaseEncodingSteps": 234,
+    "EchoTrainLength": 141,
+    "PercentSampling": 100.7813,
+    "PercentPhaseFieldOfView": 100.0,
+    "PixelBandwidth": 781.0,
+    "AcquisitionMatrix": [
+        0,
+        256,
+        258,
+        0
+    ],
+    "FlipAngle": 120.0,
+    "PatientPosition": "HFS",
+    "ImagePositionPatient": [
+        -63.400491952896,
+        -125.9004919529,
+        102.80590438843
+    ],
+    "ImageOrientationPatient": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+    ],
+    "Rows": 256,
+    "Columns": 256
+}
