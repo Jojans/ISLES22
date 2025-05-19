@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/cee1be08-a422-46c4-9d5a-2aa3df7d30cf)
+
 Características principales del dataset ISLES 2022
 Volumen y diversidad: Incluye 400 casos de MRI recopilados de múltiples centros médicos y fabricantes de equipos, lo que proporciona una amplia variabilidad en el tamaño, cantidad y ubicación de las lesiones. 
 
