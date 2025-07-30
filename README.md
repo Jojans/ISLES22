@@ -1,30 +1,51 @@
 ![image](https://github.com/user-attachments/assets/cee1be08-a422-46c4-9d5a-2aa3df7d30cf)
 
-Características principales del dataset ISLES 2022
-Volumen y diversidad: Incluye 400 casos de MRI recopilados de múltiples centros médicos y fabricantes de equipos, lo que proporciona una amplia variabilidad en el tamaño, cantidad y ubicación de las lesiones. 
+📊 Características Principales
 
-División de datos:
+🔢 Volumen y Diversidad
+
+400 casos de resonancia magnética (MRI) recopilados de diversos centros médicos y diferentes fabricantes de escáneres.
+
+Alta variabilidad en el tamaño, número y localización de las lesiones, lo que mejora la generalización de los modelos entrenados.
+
+📁 División del Conjunto de Datos
 
 Entrenamiento: 250 casos con anotaciones expertas disponibles públicamente.
 
-Prueba: 150 casos reservados para validación de modelos; no se liberan públicamente.
+Prueba: 150 casos reservados para validación (no disponibles públicamente).
 
-Modalidades de imagen: Cada caso incluye tres secuencias clave de MRI:
+🖼 Modalidades de Imagen Incluidas
 
-DWI (Diffusion Weighted Imaging): Destaca áreas de difusión restringida, útiles para identificar lesiones agudas.
+Cada caso incluye tres secuencias clave de resonancia magnética:
 
-ADC (Apparent Diffusion Coefficient): Complementa la DWI para diferenciar lesiones recientes de otras anomalías.
+DWI (Diffusion Weighted Imaging): Resalta áreas con restricción de difusión, útil para detectar lesiones agudas.
 
-FLAIR (Fluid Attenuated Inversion Recovery): Ayuda a distinguir lesiones nuevas de las crónicas.
+ADC (Apparent Diffusion Coefficient): Complementa la DWI para distinguir entre lesiones recientes y otras anomalías.
 
-Formato y preprocesamiento: Los datos están en formato NIfTI siguiendo la convención BIDS, con las imágenes en su espacio nativo y sin registro previo. Se aplicó eliminación del cráneo para garantizar la anonimización. 
+FLAIR (Fluid-Attenuated Inversion Recovery): Ayuda a diferenciar lesiones agudas de crónicas.
 
-Objetivos del desafío ISLES 2022
-El desafío se centró en dos tareas principales:
+🧪 Formato y Preprocesamiento
 
-Segmentación de infartos en MRI multimodal: Utilizando imágenes DWI, ADC y FLAIR para segmentar lesiones de infarto cerebral en fases aguda y subaguda.
+Imágenes en formato NIfTI, siguiendo la convención BIDS (Brain Imaging Data Structure).
 
-Segmentación de lesiones en imágenes T1 ponderadas: Parte del desafío ATLAS, enfocado en lesiones en fases aguda, subaguda y crónica utilizando imágenes T1 de canal único.
+Las imágenes están en su espacio nativo, sin registro intermodal aplicado.
 
-El objetivo general fue identificar métodos algorítmicos que permitan el desarrollo y la evaluación comparativa de técnicas automáticas, robustas y precisas para la segmentación de lesiones isquémicas.
-ResearchGate
+Se realizó eliminación del cráneo (skull stripping) para garantizar la anonimización de los datos.
+
+🎯 Objetivos del Desafío ISLES 2022
+
+El desafío se estructuró en torno a dos tareas principales:
+
+1. Segmentación de Infartos en MRI Multimodal
+Utilización de secuencias DWI, ADC y FLAIR para segmentar lesiones isquémicas en las fases aguda y subaguda.
+
+2. Segmentación de Lesiones en Imágenes T1 Ponderadas
+Parte del subdesafío ATLAS.
+
+Enfocado en la segmentación de lesiones en las fases aguda, subaguda y crónica mediante imágenes T1 de canal único.
+
+🧠 Propósito del Dataset
+
+El objetivo principal del ISLES 2022 es fomentar el desarrollo y la evaluación comparativa de métodos automáticos, robustos y precisos para la segmentación de lesiones isquémicas cerebrales, facilitando avances clínicamente relevantes en el diagnóstico por imagen.
+
+
