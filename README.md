@@ -1,7 +1,5 @@
 ![image](https://github.com/user-attachments/assets/cee1be08-a422-46c4-9d5a-2aa3df7d30cf)
 
-📊 Características Principales
-
 🔢 Volumen y Diversidad
 
 400 casos de resonancia magnética (MRI) recopilados de diversos centros médicos y diferentes fabricantes de escáneres.
