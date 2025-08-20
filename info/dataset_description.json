@@ -1,0 +1,14 @@
+{
+  "Name": "ISLES 2022",
+  "BIDSVersion": "1.6.0",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Moritz Roman Hernandez Petzsche",
+    "Ezequiel de la Rosa",
+    "Roland Wiest",
+    "Uta Hanning",
+    "Benedikt Wiestler",
+    "Jan S. Kirschke"
+  ],
+  "HowToAcknowledge": "Please cite this preprint: https://arxiv.org/abs/2206.06694"
+}
