@@ -74,7 +74,7 @@ Ejemplo de salida del modelo:
 
 | Imagen Original | Máscara Real | Máscara Predicha |
 |-----------------|--------------|------------------|
-| ![MRI](https://github.com/Jojans/ISLES22/blob/main/images/MRI.png) | ![GT]() | ![Pred]() |
+| ![MRI](https://github.com/Jojans/ISLES22/blob/main/images/MRI.png) | ![GT](https://github.com/Jojans/ISLES22/blob/main/images/GT.png) | ![Pred](https://github.com/Jojans/ISLES22/blob/main/images/Pred.png) |
 
 ---
 
@@ -90,12 +90,7 @@ Ejemplo de salida del modelo:
 
 Este proyecto se basa en investigaciones previas sobre segmentación automática de lesiones isquémicas cerebrales utilizando MRI multimodal y arquitecturas basadas en U-Net y ensembles.
 
-- Maier et al. (2022). *ISLES 2022 Challenge: Multi-center Stroke Lesion Segmentation in MRI*. [Enlace](https://arxiv.org/abs/2206.12587)   
-- Sitio oficial ISLES 2022 – reglas, datos y tareas. [Enlace](https://www.isles-challenge.org/)   
-- Maier et al. (2015). *ISLES 2015 – A public evaluation benchmark for ischemic stroke lesion segmentation*. [Enlace](https://www.frontiersin.org/articles/10.3389/fnins.2017.00544/full)   
-- Maier et al. (2018). *ISLES 2018: A multi-modal brain imaging dataset for ischemic stroke lesion segmentation*. [Enlace](https://arxiv.org/abs/1905.07788)   
-- Xu et al. (2025). *DeepISLES: Ensemble learning for robust ischemic lesion segmentation*. *Nature Communications*. [Enlace](https://www.nature.com/articles/s41467-025-58552-8)   
-- Guo et al. (2024). *Multi-modal ensemble networks for stroke lesion segmentation in ISLES 2022*. [Enlace](https://arxiv.org/abs/2401.09221)   
-- Yan et al. (2025). *Attention vs. Residual U-Net in multimodal MRI stroke segmentation: A systematic review*. [Enlace](https://arxiv.org/abs/2501.08469)   
-- Liu et al. (2024). *Deep learning for large-scale ischemic lesion detection and segmentation in DWI*. [Enlace](https://arxiv.org/abs/2402.08472)   
-- Chen et al. (2023). *Multimodal mRUNet for DWI/FLAIR mismatch in acute ischemic stroke*. [Enlace](https://arxiv.org/abs/2306.00905)   
+- Sitio oficial ISLES 2022 – reglas, datos y tareas. [Enlace](https://www.isles-challenge.org/)
+- Shruti, J. (2020). A survey of loss functions for semantic segmentation. [Enlace](https://doi.org/10.1109/CIBCB48159.2020.9277638)
+- Olaf, R., Philipp, F., & Thomas, B. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. [Enlace](http://arxiv.org/abs/1505.04597)
+- Niu, Zuodong & Li, Handong. (2019). Research and analysis of threshold segmentation algorithms in image processing. Journal of Physics: Conference Series. 1237. 022122. 10.1088/1742-6596/1237/2/022122.
