@@ -74,7 +74,7 @@ Ejemplo de salida del modelo:
 
 | Imagen Original | Máscara Real | Máscara Predicha |
 |-----------------|--------------|------------------|
-| ![MRI](<img width="251" height="248" alt="image" src="https://github.com/user-attachments/assets/f83ebc78-ed67-4f03-bb78-96ad7c917019" />) | ![GT](<img width="247" height="247" alt="image" src="https://github.com/user-attachments/assets/12e8891e-4337-412c-9109-7aea1fb4b0bd" />) | ![Pred](<img width="246" height="250" alt="image" src="https://github.com/user-attachments/assets/2a1a983a-7341-48d2-b31a-24e9c54536b4" />) |
+| ![MRI](https://github.com/Jojans/ISLES22/blob/main/images/MRI.png) | ![GT]() | ![Pred]() |
 
 ---
 
