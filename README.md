@@ -42,12 +42,16 @@ El objetivo final es aportar metodologías que puedan apoyar el diagnóstico cl�
 - Codificador–decodificador con skip connections.  
 - Capas de convolución + BatchNorm + ReLU.  
 - Función de pérdida: IoU Loss.  
-- Métricas: Binary IoU y Dice Coefficient.  
+- Métricas: Binary IoU y Dice Coefficient.
+
+![UNET](https://github.com/Jojans/ISLES22/blob/main/images/unet.png)
 
 ### 🔹 SegNet con Bloques Residuales
 - Encoder con residual connections.  
 - Decoder simétrico con upsampling y concatenaciones.  
 - Regularización con Dropout.  
+
+![SEGNET](https://github.com/Jojans/ISLES22/blob/main/images/segnet.png)
 
 ---
 
