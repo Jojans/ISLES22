@@ -1,16 +1,18 @@
 ![image](https://github.com/user-attachments/assets/cee1be08-a422-46c4-9d5a-2aa3df7d30cf)
 
-# 🧠 Segmentación Automática de Lesiones Isquémicas en MRI
+# Segmentación Automática de Lesiones Isquémicas en MRI
 
 Este proyecto implementa modelos de Deep Learning (U-Net y SegNet con bloques residuales) para la segmentación de lesiones isquémicas cerebrales en imágenes de resonancia magnética multimodal (MRI).  
-Se basa en el dataset ISLES 2022, un desafío internacional orientado al desarrollo de algoritmos robustos y clínicamente relevantes en neuroimagen.
+Se basa en el dataset ISLES 2022, un desafío internacional orientado al desarrollo de algoritmos robustos y clínicamente relevantes en neuroimagen. 
+
+El proposito del proyecto fue presentarlo como proyecto final de clase para la asignatura de Inteligencia Artifical II en la Universidad Industrial de Santander.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Volumen y Diversidad**  
-  - 400 casos de resonancia magnética (MRI) recopilados de múltiples centros médicos.  
+  - 400 casos de resonancia magnética (MRI) recopilados de múltiples centros médicos. 
   - Alta variabilidad en tamaño, número y localización de las lesiones, lo que favorece la generalización.  
 
 - **División del Conjunto de Datos**  
@@ -29,16 +31,10 @@ Se basa en el dataset ISLES 2022, un desafío internacional orientado al desarro
 
 ---
 
-## 🎯 Objetivo
 
-El propósito del proyecto es entrenar y comparar arquitecturas de segmentación para detectar y delimitar lesiones isquémicas en fases aguda, subaguda y crónica.  
-El objetivo final es aportar metodologías que puedan apoyar el diagnóstico clínico asistido.
+## Arquitectura Implementada
 
----
-
-## 🏗️ Arquitectura Implementada
-
-### 🔹 U-Net Clásica
+### U-Net Clásica
 - Codificador–decodificador con skip connections.  
 - Capas de convolución + BatchNorm + ReLU.  
 - Función de pérdida: IoU Loss.  
@@ -46,7 +42,7 @@ El objetivo final es aportar metodologías que puedan apoyar el diagnóstico cl�
 
 ![UNET](https://github.com/Jojans/ISLES22/blob/main/images/unet.png)
 
-### 🔹 SegNet con Bloques Residuales
+### SegNet con Bloques Residuales
 - Encoder con residual connections.  
 - Decoder simétrico con upsampling y concatenaciones.  
 - Regularización con Dropout.  
@@ -55,18 +51,8 @@ El objetivo final es aportar metodologías que puedan apoyar el diagnóstico cl�
 
 ---
 
-## ⚙️ Pipeline
 
-1. Carga y preprocesamiento de MRI y máscaras.  
-2. Extracción de slices 2D relevantes mediante umbralado.  
-3. Normalización y división en entrenamiento y validación.  
-4. Entrenamiento de modelos U-Net y SegNet.  
-5. Evaluación cuantitativa en el conjunto de prueba.  
-6. Visualización de predicciones con superposición de máscaras.  
-
----
-
-## 📈 Resultados
+## Resultados
 
 - Gráficas de entrenamiento (Loss e IoU).  
 - Visualización comparativa entre:  
@@ -82,7 +68,7 @@ Ejemplo de salida del modelo:
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Python  
 - TensorFlow / Keras
@@ -90,7 +76,7 @@ Ejemplo de salida del modelo:
 - Matplotlib (visualización)  
 - Scikit-learn (data split)
 
-## 📚 Trabajos Relacionados
+## Trabajos Relacionados
 
 Este proyecto se basa en investigaciones previas sobre segmentación automática de lesiones isquémicas cerebrales utilizando MRI multimodal y arquitecturas basadas en U-Net y ensembles.
 
