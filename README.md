@@ -4,7 +4,6 @@
 
 Este proyecto implementa modelos de Deep Learning (U-Net y SegNet con bloques residuales) para la segmentación de lesiones isquémicas cerebrales en imágenes de resonancia magnética multimodal (MRI).  
 Se basa en el dataset ISLES 2022, un desafío internacional orientado al desarrollo de algoritmos robustos y clínicamente relevantes en neuroimagen. 
-
 El proposito del proyecto fue presentarlo como proyecto final de clase para la asignatura de Inteligencia Artifical II en la Universidad Industrial de Santander.
 
 ---
